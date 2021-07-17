@@ -1,0 +1,183 @@
+* {
+    font-family: Arial;
+    outline: none;
+}
+
+body {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#menu {
+    float: right;
+}
+
+#social-box {
+    text-align: center;
+}
+
+.link {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 600ms;
+}
+
+.link:hover {
+    opacity: 0.6;
+    transition: 600ms;
+}
+
+.box-link {
+    color: black;
+    font-size: 30px;
+    transition: 600ms;
+}
+
+.box-link:hover {
+    opacity: 0.6;
+    transition: 600ms;
+}
+
+/*  */
+
+nav {
+    margin-bottom: 40px;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*  */
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.product {
+    box-shadow: 2px 2px 2px 2px lightgray;
+    width: 150px;
+    text-align: center;
+    line-height: 75px;
+    padding: 10px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.product-margin:not(:last-child) {
+    margin-right: 60px;
+}
+
+/*  */
+
+.product-title {
+    font-weight: bold;
+    color: rgb(0, 0, 196);
+    font-size: 22px;
+}
+
+.product-link {
+    color: white;
+    background: rgb(0, 0, 196);
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: 600ms;
+}
+
+.product-link:hover {
+    opacity: 0.6;
+    transition: 600ms;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+}
+
+#argument-box {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.nav-link:not(:last-child) {
+    margin-right: 15px;
+}
+
+.special-link {
+    background: rgb(0, 0, 196);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+/*  */
+
+@media screen and (max-width: 730px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    center {
+        margin-left: 60px;
+    }
+}
+
+/*  */
+
+.form-group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.input {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid lightgray;
+}
+
+.sbm-button {
+    cursor: pointer;
+    transition: 600ms;
+}
+
+.sbm-button:hover {
+    opacity: 0.6;
+    transition: 600ms;
+}
+
+.title {
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+.important {
+    color: red;
+    font-weight: normal;
+}
