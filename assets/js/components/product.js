@@ -5,7 +5,7 @@ class Product extends HTMLElement{
         this.innerHTML = `
         <div class="product product-margin">
             <div class="product-image-container">
-                <img class="product-image" src="./assets/img/${this.getAttribute('img').png}" />
+                <img class="product-image" src="./assets/img/products/${this.getAttribute('img')}.png" />
             </div>
             <div class="product-title">
                 ${this.getAttribute('title')}

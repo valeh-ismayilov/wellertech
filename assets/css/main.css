@@ -12,6 +12,7 @@ body {
 
 #menu {
     float: right;
+    margin-top: 35px;
 }
 
 #social-box {
@@ -180,4 +181,12 @@ form {
 .important {
     color: red;
     font-weight: normal;
+}
+
+.nav-logo {
+    width: 100px;
+}
+
+.product-image {
+    width: 100px;
 }
