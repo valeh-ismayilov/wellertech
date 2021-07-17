@@ -138,7 +138,7 @@ footer {
         margin-top: 40px;
         flex-direction: column;
     }
-    center {
+    .flex-app {
         margin-left: 60px;
     }
 }
@@ -189,4 +189,19 @@ form {
 
 .product-image {
     width: 100px;
+}
+
+.detail-image {
+    width: 200px;
+}
+
+#id-boy {
+    float: right;
+}
+
+.about-box {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
