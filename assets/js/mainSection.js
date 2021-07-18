@@ -12,6 +12,12 @@ __main = `
             title='RTX 3090'
             link='rtx-3090'>
         </product-el>
+
+        <product-el
+            img='gtx-1650-super'
+            title='GTX 1650'
+            link='gtx-1650-super'>
+        </product-el>
     </div>
 </center>
 `;
